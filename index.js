@@ -11,4 +11,6 @@ app.get("/", function (req, res) {
     res.render("pages/index.ejs");
 });
 
-app.listen(8040);
+app.listen(8040, function () {
+    console.log("Webserver launched!");
+});
