@@ -12,5 +12,5 @@ app.get("/", function (req, res) {
 });
 
 app.listen(8040, function () {
-    console.log("Webserver launched!");
+    console.log("Webserver launched on port 8040!");
 });

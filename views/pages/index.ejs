@@ -16,6 +16,11 @@
 
     <body>
         <% include ../partials/header.ejs %>
-        <h1>NUBECULA</h1>
+        <div id="center">
+            <form action="upload.ejs" type="post">
+                <input type="file" name="upload" multiple>
+                <input type="submit" value="Datei abschicken" name="submit">
+            </form>
+        </div>
     </body>
 </html>
